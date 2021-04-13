@@ -1,6 +1,6 @@
 spec:
   destination:
-    server: https://kubernetes.default.svc
+    server: prod-cluster
   source:
     repoURL: https://github.com/argoproj/argocd-example-apps
     targetRevision: HEAD
