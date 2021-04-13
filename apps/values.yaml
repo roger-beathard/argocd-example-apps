@@ -2,5 +2,5 @@ spec:
   destination:
     server: https://35.185.12.126
   source:
-    repoURL: https://github.com/argoproj/argocd-example-apps
+    repoURL: https://github.com/roger-beathard/argocd-example-apps
     targetRevision: HEAD
