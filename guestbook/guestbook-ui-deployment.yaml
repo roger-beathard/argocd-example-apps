@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: guestbook-ui
-  namespace: helm-hooks
+  namespace: roger 
 spec:
   replicas: 1
   revisionHistoryLimit: 3
