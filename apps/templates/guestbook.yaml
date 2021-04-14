@@ -14,3 +14,6 @@ spec:
     path: guestbook
     repoURL: {{ .Values.spec.source.repoURL }}
     targetRevision: {{ .Values.spec.source.targetRevision }}
+  syncPolicy:
+    syncOptions:
+    - CreateNamespace=true
