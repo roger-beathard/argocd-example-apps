@@ -1,6 +1,6 @@
 spec:
   destination:
-    server: https://35.185.12.126
+    server: prod-cluster
   source:
     repoURL: https://github.com/roger-beathard/argocd-example-apps
     targetRevision: HEAD
